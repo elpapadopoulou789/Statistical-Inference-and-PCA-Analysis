@@ -16,3 +16,14 @@ This repository contains a rigorous statistical analysis performed on various da
 ## 🛠 Tech Stack
 - **Language:** R
 - **Key Libraries:** `stats`, `outliers`, `ggplot2`, `factoextra`
+
+## 🛠 How to Run
+1. Ensure you have **R** installed.
+2. Download all files and place them in the same directory.
+3. Run any of the `.R` scripts. They are configured to automatically load `penguins.csv` from the root directory.
+
+## 📂 Repository Structure
+- `PCA_Analysis_Penguins.R`: Dimensionality reduction and standardization analysis.
+- `Model_Evaluation_Metrics.R`: Evaluation of diagnostic tests (Sensitivity, Specificity, ROC).
+- `Hypothesis_Testing_Analysis.R`: Statistical tests (t-tests, Chi-square) and outlier detection.
+- `penguins.csv`: The primary dataset used for the analysis.
